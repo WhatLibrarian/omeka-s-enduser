@@ -146,7 +146,7 @@ Note: Required fields marked with R. Primary fields marked with P.
 
 You can build a form for your dataset when adding or editing the dataset. On the form builder tab, use the plan you wrote as a guide for adding field blocks to the form.
 
-This image shows the form outlined above in the process of being created. The user has saved the form at least once, which is why the `Name` and `Listing type` fields have the right right label instead of just `New field`. The block for descriptor is open to show the guidance which has been added to the field description, as suggested in the notes above.
+This image shows the form outlined above in the process of being created. The user has saved the form at least once, which is why the `Name` and `Listing type` fields have the right label instead of just `New field`. The block for descriptor is open to show the guidance which has been added to the field description, as suggested in the notes above.
 
 ![Image as described. The guidance reads 'Write as given in the directory, so “insurance agents” ](modulesfiles/datascribe_buildform.png)
 
@@ -154,7 +154,7 @@ This image shows the form outlined above in the process of being created. The us
 
 In a DataScribe project you may need to use the same or similar forms for multiple datasets. Rather than making the same form over and over, you can export the form from an existing dataset and reuse it. This is particularly helpful when you have longer forms.
 
-Note that you can only import a form when you are adding a new dataset. You can’t import a form to an existing dataset.
+Note that you can only import a form when you are adding a new dataset. You can’t import a form to an existing dataset. 
 
 #### Export the dataset form
 
@@ -168,6 +168,8 @@ The default title for the exported form is `form_export`. If you plan on using t
 
 You can **only** import an existing form when creating a new dataset.
 
+Remember that a dataset is based on an item set, so organize your applicable items into an item set, then create a new dataset based on that item set, and import the form during that creation process. 
+
 Create a new dataset that will use the same form. Add information for the title (required) and select an item set to use. If you do not add guidelines when creating the dataset, be sure to add some in the future.
 
 Towards the bottom of the "Add Dataset" form, there is an option to import a form. Click the button. Then, using your browser’s file manager, find the form file you have already downloaded. Be sure to save. Click “Add new dataset”.
@@ -177,6 +179,8 @@ When you go in to edit your new dataset, you should now see the form you importe
 ## Sync a dataset
 
 Syncing is a very important part of managing datasets in DataScribe, because it updates the dataset with the information from the items in the Omeka S item set. Make sure you synchronize your datasets and item sets frequently, especially any time items are added or removed from the item set in the Omeka S installation.
+
+For example, you may have started a project and created a form to match an item set full of similar-seeming items, such as pages from the Census. Then you find that there is a change to the format of each page at some point in time. You can create a second item set, move the later items from the first item set to the second, copy (export and re-import) your first form and modify it to accommodate the second format you've discovered, sync the project to show the current items in each item set, and continue transcribing the later items. 
 
 Once you have created the dataset, you will be taken to the dataset browse page. A message should appear in the main work area which says “No items found. Sync this dataset”.
 
@@ -194,7 +198,7 @@ Refresh the dataset’s page to check the items. The syncing process updates the
 
 Be aware that any items which have been removed from the Omeka S item set will be deleted from the DataScribe dataset, along with any records which have been created for those items.
 
-Finally, remember that syncing does not send any information from DataScribe to Omeka S.
+Finally, remember that syncing does not send any information from DataScribe to Omeka S. DataScribe metadata saved in forms stays in the module's own database entries, and does not transfer into visible metadata on Omeka S items. 
 
 ## Transcribe an item
 
