@@ -41,7 +41,7 @@ DataScribe is a module that uses Omeka S items and item sets to facilitate the t
 
 **DataScribe Items** correspond to items in Omeka S - it is a one-to-one correlation. Every DataScribe item also exists as an item in the Omeka S installation. The Omeka S item is where you can find metadata (information) about the source, rights, etc. for each item. The media files which you view when transcribing are attached to the Omeka S items. Note that a DataScribe item can be in more than one dataset. When transcribing, an item has at least one Record.
 
-**Records** are individual pieces of data for an item. A single DataScribe record will appear as a row when the transcribed data is exported. In terms of a general workflow transcription happens at the record level and review happens at the item level. However transcribers may leave notes end flag individual records for attention even when the full item is not ready to be reviewed.
+**Records** are individual pieces of data for an item. A single DataScribe record will appear as a row when the transcribed data is exported. In terms of a general workflow transcription happens at the record level and review happens at the item level. However transcribers may leave notes and flag individual records for attention even when the full item is not ready to be reviewed.
 
 **Transcriber**: an Omeka S user (of any level) can be designated a DataScribe transcriber. This user will be able to transcribe items that have been assigned to them through projects. 
 
