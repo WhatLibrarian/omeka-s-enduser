@@ -33,11 +33,11 @@ If you have TIFF or PDF files, you will need to convert them to one of the above
 
 ## Terminology
 
-DataScribe is a module that uses Omeka S items and item sets to facilitate the transcription of historic structured data (that is, information written in columns and rows or recorded in other sorts of tables).
+DataScribe is a module that uses Omeka S items and item sets to facilitate the transcription of structured data (that is, information written in columns and rows or recorded in other sorts of tables).
 
 **Project**: a dataset or group of datasets. Some DataScribe uses might have multiple projects, others might just have one. Each project has at least one dataset. You access all DataScribe projects through the dashboard.
 
-**Dataset**: a group of historical documents with the same data framework (table structure, set of rows and columns, etc). A dataset might capture all of the information recorded on a historical document, or only part of the document. DataSets are created using Item Sets in Omeka S. Datasets are made up of items.
+**Dataset**: a group of documents with the same data framework (table structure, set of rows and columns, etc). A dataset might capture all of the information recorded on a historical document, or only part of the document. DataSets are created using Item Sets in Omeka S. Datasets are made up of items.
 
 **DataScribe Items** correspond to items in Omeka S - it is a one-to-one correlation. Every DataScribe item also exists as an item in the Omeka S installation. The Omeka S item is where you can find metadata (information) about the source, rights, etc. for each item. The media files which you view when transcribing are attached to the Omeka S items. Note that a DataScribe item can be in more than one dataset. When transcribing, an item has at least one Record.
 
@@ -56,13 +56,13 @@ See this guide on the wiki: [The DataScribe dashboard](https://github.com/omeka-
 !!! note
 	The module wiki has information on [project planning and conceptualizing how DataScribe can be configured for your materials](https://raw.githubusercontent.com/wiki/omeka-s-modules/Datascribe/Site-docs/support/projectplanning.md){target=_blank}. You may wish to read that and plan out your projects, forms, and datasets before installing or working with DataScribe. 
 
-The first step for working in DataScribe is to create a new project. When you log into a shared installation and land on the DataScribe dashboard, you may see all the projects that other users have created in DataScribe (if your permission level is high enough). However, the “My projects” section of the dashboard will be empty. There is a button in the upper right hand corner that will allow you to “Add new project.”
+The first step for working in DataScribe is to create a new project. When you log into an installation and land on the DataScribe dashboard, you may see all the projects that other users have created in DataScribe (if your permission level is high enough). However, the “My projects” section of the dashboard will be empty. There is a button in the upper right hand corner that will allow you to “Add new project.”
 
 ![screenshot of the DataScribe dashboard showing the user does not currently own or belong to any projects, with the Add new project button visible in the upper right hand corner](modulesfiles/datascribe_buildproject2.png)
 
 All projects are required to have a name, which you set up in the “Configuration” tab (and can edit later). You may also optionally give your project a description. 
 
-Lastly, you must decide whether your project is going to be public (visible to other people on the installation) or private. There is a crossed eye icon next to the “Add” and “Cancel” buttons - clicking it will allow you to toggle private mode off and on again. The default mode is private.
+You must decide whether your project is going to be public (visible to other people on the installation) or private. There is a crossed eye icon next to the “Add” and “Cancel” buttons - clicking it will allow you to toggle private mode off and on again. The default mode is private.
 
 ![Screenshot of the DataScribe New Project setup page with the Configuration tab active and form fields for the project Name and Description. In the upper right hand corner, the mouse is hovering over a crossed-out eye symbol and bringing up a tooltip labeled Make public](modulesfiles/datascribe_buildproject3.png)
 
@@ -72,11 +72,11 @@ On the right hand side of the screen will be a menu that displays all the users 
 
 ![Screenshot of the DataScribe New Project setup page with the Users tab active and a menu on the right hand side displaying 72 potential users to add to the project](modulesfiles/datascribe_buildproject1.png)
 
-Once you’ve added a user to the project, you need to set their project role. All users are automatically started as Transcriber and there is a dropdown menu that can be used to change their project role to Reviewer if necessary.
+Once you have added a user to the project, you need to set their project role. All users are automatically started as Transcriber and there is a dropdown menu that can be used to change their project role to Reviewer if necessary.
 
 Add yourself if you plan to use your current user account to work as either a transcriber or reviewer. If you are a Supervisor or Global Admin and only plan to administer the project, you don't need to add yourself - you will always have access to all projects on the installation. 
 
-Lastly, you complete the process of adding a project by clicking the “Add” button in the upper right hand corner. This adds the project to DataScribe and will redirect you to the new project dashboard.
+Complete the process of adding a project by clicking the “Add” button in the upper right hand corner. This adds the project to DataScribe and will redirect you to the new project dashboard.
 
 ![Screenshot of the DataScribe New Project page.](modulesfiles/datascribe_buildproject4.png)
 
@@ -84,11 +84,11 @@ You will see a green banner across the top of your screen letting you know that 
 
 ## Build a form
 
-Forms provide the framework for the structured transcription in DataScribe. When building forms for your datasets, take some time to look at your historical sources and think about how you want to organize your forms. With some sources, it might be worth creating multiple forms to capture distinct subsets of data on the same page.
+Forms provide the framework for the structured transcription in DataScribe. When building forms for your datasets, take some time to look at your sources and think about how you want to organize your forms. With some sources, it might be worth creating multiple forms to capture distinct subsets of data on the same page.
 
 DataScribe uses Omeka S item sets as the basis for datasets.
 
-Datasets are a group of historical documents with the same data framework (table structure, set of rows and columns, etc). A dataset might capture all of the information recorded on a historical document, or only part of the document. Each dataset has one transcription form.
+Datasets are a group of documents with the same data framework (table structure, set of rows and columns, etc). A dataset might capture all of the information recorded on a historical document, or only part of the document. Each dataset has one transcription form.
 
 You will need to create a unique item set for each form type you intend to create. For example, if you have data with variations over time - like the Bills of Mortality or the US Census - you will need to create different item sets for each variation in the form which you want to capture.
 
@@ -105,7 +105,7 @@ Go through the original source. Write down all of the possible data points on th
 
 ![Digitized directory page example](modulesfiles/datascribe_goresliverpooldirectory1860_p40.png)
 
-In this page from the _Directory_, there are at least 11 potential data points: page number, last name, first name, listing type (person, business, etc), description, street number, street name, other address information, second address street number, second address street name, other information for second address. How you organize these is up to you and can be guided by your research questions.
+In this page from the _ Gore's Liverpool Directory_, there are at least 11 potential data points: page number, last name, first name, listing type (person, business, etc), description, street number, street name, other address information, second address street number, second address street name, other information for second address. How you organize these is up to you and can be guided by your research questions.
 
 ### Match data points and form fields
 
@@ -228,7 +228,7 @@ Back on the records page, there is a drop-down menu on the right-side panel unde
 
 ## Review transcriptions
 
-[There is more detailed information about transcribing on the wiki](https://github.com/omeka-s-modules/Datascribe/wiki/Reviewing-transcriptions){target=_blank}.
+[There is more detailed information about reviewing transcriptions on the wiki](https://github.com/omeka-s-modules/Datascribe/wiki/Reviewing-transcriptions){target=_blank}.
 
 Reviewers check transcriptions after transcribers complete the transcription on a DataScribe item and submit it for review. You will either approve the transcription or send it back to the transcriber to correct.
 
@@ -252,13 +252,11 @@ You can check Needs Work and leave notes on the record. If you are transcribing 
 
 You can leave notes on the item level under Item Actions. From here, you will click “save… and return to records.”
 
-Setting a Review status for the item is your last step. The item must be set either `approved` or `not approved`.
-
-Under the Review status, select “Mark as approved” or “Mark as not approved”.
+Setting a Review status for the item is your last step. The item must be set either `approved` or `not approved`. Under the Review status, select “Mark as approved” or “Mark as not approved”.
 
 If the item is not approved, you should leave a note in the item or record to direct the transcriber on what issues to correct and to mark only the areas in need of review when the item is resubmitted.
 
-Finally, click “save” to ensure your changes are saved.
+Click “save” to ensure your changes are saved.
 
 ## Export a dataset 
 
