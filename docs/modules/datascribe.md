@@ -86,9 +86,7 @@ You will see a green banner across the top of your screen letting you know that 
 
 Forms provide the framework for the structured transcription in DataScribe. When building forms for your datasets, take some time to look at your sources and think about how you want to organize your forms. With some sources, it might be worth creating multiple forms to capture distinct subsets of data on the same page.
 
-DataScribe uses Omeka S item sets as the basis for datasets.
-
-Datasets are a group of documents with the same data framework (table structure, set of rows and columns, etc). A dataset might capture all of the information recorded on a historical document, or only part of the document. Each dataset has one transcription form.
+DataScribe uses Omeka S item sets as the basis for datasets. Datasets are a group of documents with the same data framework (table structure, set of rows and columns, etc). A dataset might capture all of the information recorded on a historical document, or only part of the document. Each dataset has one transcription form.
 
 You will need to create a unique item set for each form type you intend to create. For example, if you have data with variations over time - like the Bills of Mortality or the US Census - you will need to create different item sets for each variation in the form which you want to capture.
 
@@ -105,7 +103,7 @@ Go through the original source. Write down all of the possible data points on th
 
 ![Digitized directory page example](modulesfiles/datascribe_goresliverpooldirectory1860_p40.png)
 
-In this page from the _ Gore's Liverpool Directory_, there are at least 11 potential data points: page number, last name, first name, listing type (person, business, etc), description, street number, street name, other address information, second address street number, second address street name, other information for second address. How you organize these is up to you and can be guided by your research questions.
+In this page from the _Gore's Liverpool Directory_, there are at least 11 potential data points: page number, last name, first name, listing type (person, business, etc), description, street number, street name, other address information, second address street number, second address street name, other information for second address. How you organize these is up to you and can be guided by your research questions.
 
 ### Match data points and form fields
 
@@ -208,7 +206,7 @@ You will be led to the Records page. Records of transcriptions will be in the ce
 
 ### The transcribing screen
 
-The center right contains your form to fill out according to the image on center left of your screen. An asterisk means that field is a required field to fill in.
+The center right contains your form to fill out according to the image on the center left of your screen. An asterisk means that field is a required field to fill in.
 
 Under "Guidelines" there are specific instructions that the project manager can leave for transcribers to follow as they are working.
 
@@ -258,9 +256,7 @@ Click “save” to ensure your changes are saved.
 
 ## Export a dataset 
 
-You can begin exporting your dataset as soon as you have at least one approved item.
-
-First you need to validate the dataset. To do this, go to the “More Actions” dropdown in the upper right-hand corner of the browser window. Select “Validate dataset”.
+You can begin exporting your dataset as soon as you have at least one approved item. First you need to validate the dataset. To do this, go to the “More Actions” dropdown in the upper right-hand corner of the browser window. Select “Validate dataset”.
 
 When you click this option, a drawer opens up explaining what the validation does. To validate the dataset, click the button in the drawer. You can refresh the page and check the timestamp of the most recent validation in the Dataset Metadata drawer to ensure that it has run properly.
 
@@ -268,9 +264,7 @@ Once the data is validated, you can export your dataset. From the “More action
 
 ![Dataset metadata drawer with blue arrows pointing to the last validated, last exported, and download dataset options](modulesfiles/datascribe_exportData.png)
 
-To access the export, use the “Click to download dataset (CSV)” link at the bottom of the dataset metadata sidebar.
-
-If you click the link, it will open the csv data in your browser window. To save the file right-click or control-click and use your browser’s menu to save the linked file to your computer.
+To access the export, use the “Click to download dataset (CSV)” link at the bottom of the dataset metadata sidebar. If you click the link, it will open the csv data in your browser window. To save the file right-click or control-click and use your browser’s menu to save the linked file to your computer.
 
 Every DataScribe export has columns for the Omeka item number, the DataScribe item number, the DataScribe record number, and the DataScribe record position.
 
