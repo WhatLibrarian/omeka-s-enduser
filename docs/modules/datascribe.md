@@ -156,21 +156,19 @@ In a DataScribe project you may need to use the same or similar forms for multip
 
 Note that you can only import a form when you are adding a new dataset. You can’t import a form to an existing dataset. 
 
-#### Export the dataset form
+#### Export a dataset form
 
 Go to the dataset where you have already built the form you want to use or modify. Scroll all the way to the bottom of the dataset page. In the right hand drawer there is a heading for “Export form”. Below the heading is a link with the text “Click to export form (JSON)”.
 
-Click on the link to download the form. Your browser should prompt you to chose a place on your computer to save the file. Choose a location which makes sense and where you can easily find the form. If you are going to be reusing the form, be sure to put it in a safe place.
+Click on the link to download the form. The default title for any exported form is "form_export": if you plan on using the form more than once, or are going to export multiple forms, rename the file when downloading.
 
-The default title for the exported form is `form_export`. If you plan on using the form more than once, or are going to export multiple forms, rename the file before downloading.
-
-#### Import the dataset form
+#### Import a dataset form
 
 You can **only** import an existing form when creating a new dataset.
 
 Remember that a dataset is based on an item set, so organize your applicable items into an item set, then create a new dataset based on that item set, and import the form during that creation process. 
 
-Create a new dataset that will use the same form. Add information for the title (required) and select an item set to use. If you do not add guidelines when creating the dataset, be sure to add some in the future.
+Create a new dataset that will use the same form you exported earlier. Add information for the title (required) and select an item set to use. If you do not add guidelines when creating the dataset, be sure to add some in the future.
 
 Towards the bottom of the "Add Dataset" form, there is an option to import a form. Click the button. Then, using your browser’s file manager, find the form file you have already downloaded. Be sure to save. Click “Add new dataset”.
 
