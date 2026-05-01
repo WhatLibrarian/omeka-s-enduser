@@ -176,27 +176,27 @@ When you go in to edit your new dataset, you should now see the form you importe
 
 ## Sync a dataset
 
-Syncing is a very important part of managing datasets in DataScribe, because it updates the dataset with the information from the items in the Omeka S item set. Make sure you synchronize your datasets and item sets frequently, especially any time items are added or removed from the item set in the Omeka S installation.
+Syncing updates the dataset with the items currently in the Omeka S item set. Make sure you synchronize your datasets and item sets frequently, especially any time items are added or removed from the item set in the Omeka S installation.
 
 For example, you may have started a project and created a form to match an item set full of similar-seeming items, such as pages from the Census. Then you find that there is a change to the format of each page at some point in time. You can create a second item set, move the later items from the first item set to the second, copy (export and re-import) your first form and modify it to accommodate the second format you've discovered, sync the project to show the current items in each item set, and continue transcribing the later items. 
 
-Once you have created the dataset, you will be taken to the dataset browse page. A message should appear in the main work area which says “No items found. Sync this dataset”.
+Once you have created the dataset, you will be taken to the dataset browse page. A message should appear in the main work area which says “No items found. Sync this dataset.”
 
 To sync your dataset you have two options.
 
-First, you can click the phrase ”sync this dataset” located at the center of the Dataset dashboard, and then click again in the right hand drawer to confirm the syncing.
+First, you can click the phrase ”Sync this dataset” located at the center of the Dataset dashboard, and then click again in the right hand drawer to confirm the syncing. The first sync will populate the dataset with items from the source item set.
 
 ![New dataset created page with no items. A large arrow points to the link 'sync this dataset'.](modulesfiles/datascribe_syncDataset1.png)
 
-Second, you can use the Actions dropdown menu located in the upper right corner of the window and select the “sync dataset” option. This action is always available, even after you have begun transcribing the items in the dataset.
+Second, you can use the "More actions" dropdown menu located in the upper right corner of the window and select the “sync dataset” option. This action is always available, even after you have begun transcribing the items in the dataset.
 
 ![New dataset created page with no items and the more actions dropdown open. A large arrow points to the 'sync dataset' option in the dropdown menu.](modulesfiles/datascribe_syncDataset2.png)
 
-Refresh the dataset’s page to check the items. The syncing process updates the dataset to match the items in the source Omeka S item set. The first sync will populate the dataset with items from the source item set.
+Refresh the dataset’s page to check the items. The syncing process updates the dataset to match the items in the source Omeka S item set. 
 
 Be aware that any items which have been removed from the Omeka S item set will be deleted from the DataScribe dataset, along with any records which have been created for those items.
 
-Finally, remember that syncing does not send any information from DataScribe to Omeka S. DataScribe metadata saved in forms stays in the module's own database entries, and does not transfer into visible metadata on Omeka S items. 
+Finally, remember that syncing does not send any information from DataScribe to Omeka S. DataScribe data (saved in forms) stays in the module's own database entries, and does not transfer into visible metadata on Omeka S items. 
 
 ## Transcribe an item
 
@@ -214,11 +214,11 @@ Under "Guidelines" there are specific instructions that the project manager can 
 
 On the right side of the screen there is a panel called "Record actions", for extra notes for transcribers or reviewers.
 
-On the top left there are three buttons to adjust the screen for better workflow. ‘Enable Focus Mode’ allows you to remove side panels from view while transcribing. ‘Fast Entry Mode’ removes extra check boxes from the form. Then a layout modifier. Vertical view is default, or choose a horizontal view.
+On the top left there are three buttons to adjust the screen for better workflow. ‘Enable Focus Mode’ allows you to remove side panels from view while transcribing. ‘Fast Entry Mode’ removes extra check boxes from the form. The third button is a layout modifier: you can choose horizontal view (image side-by-side with form) or vertical (image above form).
 
-In the top right and click ‘"Save And..." to either stay on the record if you save periodically or return to the records page.
+In the top right corner, click ‘"Save And..." to either stay on the record if you save periodically or return to the records page.
 
-Back on the records page, there is a drop-down menu on the right-side panel under Item Actions for ‘Submission Status’. Click on that to select 'Submit For Review’ and you are done.
+Back on the records page, there is a drop-down menu on the right-side panel under Item Actions for "Submission Status". Click on that to select "Submit For Review" and you are done.
 
 ### Transcribe non-digitized sources 
 
