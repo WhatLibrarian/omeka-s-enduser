@@ -51,6 +51,7 @@ nav:
         - modules/customvocab.md
         - modules/datacleaning.md
         - modules/datarepositoryconnector.md
+        - modules/datascribe.md
         - modules/datavisualization.md
         - modules/dspaceconnector.md
         - modules/exports.md
